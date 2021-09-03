@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D image Fruits </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<style>
+		
+.back{
+	padding-left: 45%;
+	font-size: 50px;
+	padding-top: 15%;
+}
+.slideshow{
+	margin: 0 auto;
+	padding-top: 50px;
+	height: 400px;
+	background: skyblue;
+	box-sizing: border-box;
+}
+.content{
+	margin: auto;
+	width: 190px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 80px;
+}
+.contect-carrousel{
+	width: 100%;
+	position: absolute;
+	float: right;
+	animation: rotar 15s infinite linear;
+	transform-style: preserve-3d;
+}
+.contect-carrousel:hover{
+	animation-play-state: paused;
+	cursor: pointer;	
+}
+.contect-carrousel figure{
+	width: 100%;
+	height: 120px;
+	border: 1px solid  black;
+	overflow: hidden;
+	position: absolute;
+}
+.contect-carrousel figure:nth-child(1){
+	transform: rotateY(0deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(2){
+	transform: rotateY(40deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(3){
+	transform: rotateY(80deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(4){
+	transform: rotateY(120deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(5){
+	transform: rotateY(160deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(6){
+	transform: rotateY(200deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(7){
+	transform: rotateY(240deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(8){
+	transform: rotateY(280deg) translateZ(300px);
+}
+.contect-carrousel figure:nth-child(9){
+	transform: rotateY(320deg) translateZ(300px);
+}
+.shadow{
+	position: absolute;
+	box-shadow: 0px 0px 20px 0px #000;
+	border-radius: 10px;
+}
+.contect-carrousel img{
+	image-rendering: auto;
+	transition: all 300ms;
+	width: 100%;
+	height: 100%;
+}
+.contect-carrousel img:hover{
+	transform: scale(1.2);
+	transition: all 300ms;
+}
+@keyframes rotar{
+	from{
+		transform: rotateY(0deg);
+		} to {
+			transform: rotateY(360deg);
+		}
+	}
+}
+
+	</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<h3 class="fru">Available Fruits </h3>
+	<a href="index.html" class="back">back</a>
+	<section class="slideshow">
+		<div class="content">
+		<div class="contect-carrousel">
+			<figure class="shadow"><img src="img/fru1.png"></figure>
+			<figure class="shadow"><img src="img/fru2.png"></figure>
+			<figure class="shadow"><img src="img/fru3.png"></figure>
+			<figure class="shadow"><img src="img/fru4.png"></figure>
+			<figure class="shadow"><img src="img/fru5.png"></figure>
+			<figure class="shadow"><img src="img/fru6.png"></figure>
+			<figure class="shadow"><img src="img/fru7.png"></figure>
+			<figure class="shadow"><img src="img/fru8.png"></figure>
+			<figure class="shadow"><img src="img/fru9.png"></figure>
+		</div>
+		</div>
+	</section>
+
+
+	  <video width="800" controls="">
+	            <source src="img/fruit.mp4" type="video/mp4">
+	            </video>
+
+
+
+	            <div class="aboutus"> 
+              <h5>About Us</h5>
+             
+              <p>We love to hear from other writers, satisfied readers, or anyone else. The best way to get in touch is to use the form below or drop a line; our address is info at paragraphline.com
+
+We love paper zines and newsletters and free books and postcards, but we don’t love paper spam from people offering to refinance our mortgage. If you’ve got some dead tree you’d like to send our way, drop us an email and we’ll give you the coordinates.</p> 
+              </div>    
+
+
+
+	<div class="copyright">
+			    <p>2012-2021 All Rights Reserved </a><br>This Site Created by<a href="#"> Dr.Liaquat.Ali
+                </a>  30 Aug 2021 All Rights Reserved!</p>
+                </div>
+
+
+
+
+</body>
+</html>

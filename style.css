@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: rgba(255, 188, 218, 0.2);
+}
+nav{
+	width: 100%;
+	height:20vh;
+	background: rgba(150,120,100,0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: justify;
+	padding-top: 5px;
+	margin-left: 5px;
+	background-size: cover;
+}
+.logo{
+	margin-left: 35px;
+	color: blue;
+	font-weight: bold;
+}
+.menu a {
+	padding-right: 50px;
+	color: blue;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+h2{
+	font-size: 25px;
+}
+h1{
+	font-size: 65px;
+	color: blue;
+	text-align: center;
+	padding-top: 50px;
+	text-shadow: 2px 2px 4px grey;
+	padding-bottom: 25px;
+	
+}
+h3{
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+	text-shadow: 2px 2px 4px grey;
+}
+h5{
+	text-align: center;
+}
+p{
+	text-align: center;	
+	font-size: 17px;
+	margin-bottom: 40px;
+
+}
+.headerpic{
+	width: 100%;
+	height: 60%;
+}
+video{
+	padding-left: 170px;
+	padding-top: 30px;
+
+}
+.aboutus img{
+	width: 25%;
+	float: left;
+	border-radius: 25px;
+
+
+}
+/*-----------copyright---------------*/
+.copyright{
+	
+	 border-top: 2px solid rgba(0,0,0,0.4);
+	 text-align: center;
+	 margin-bottom: 25px;
+}
+.copyright p{
+	   color: #333;
+}
+.copyright a{
+	color: blue;
+
+}
+/*------------card effect---------------*/
+
+.card{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+h5{
+	font-size: 38px;
+	font-weight: 600;
+	color: blue;
+	text-shadow: 2px 2px 4px grey;
+}
+p{
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.card-col{
+	flex-basis: 30%;
+	background: rgba(117, 71, 96, 0.2);
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.card-col img {
+	width: 100%;
+}
+h4{
+	text-align: center;
+	font-size: 32px;
+	color: blue;
+	margin: 10px 0;
+}
+.card-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+@media(max-width: 700px){
+	.row{
+		flex-direction: column;
+	}
+}
+
+
